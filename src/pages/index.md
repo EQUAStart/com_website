@@ -1,7 +1,7 @@
 ---
 templateKey: 'home-page'
-title: EQUA Start 20181212.1057HST
-meta_title: Home | EQUA Start 20181212.1057HST
+title: EQUA Start 20181212.1118HST
+meta_title: Home | EQUA Start 20181212.1118HST
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
