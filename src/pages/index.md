@@ -1,6 +1,6 @@
 ---
 templateKey: 'home-page'
-title: EQAU Start
+title: EQUA Start
 meta_title: Home | EQUA Start
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
