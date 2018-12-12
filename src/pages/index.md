@@ -1,5 +1,5 @@
 ---
-templateKey: 'home-page'
+templateKey: 'splash-page'
 title: EQUA Start 20181212.1118HST
 meta_title: Home | EQUA Start 20181212.1118HST
 meta_description: >-
