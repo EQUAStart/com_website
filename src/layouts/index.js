@@ -23,7 +23,7 @@ class TemplateWrapper extends Component {
           <title>{config.siteTitle}</title>
           <meta name='description' content={config.siteDescription} />
         </Helmet>
-        <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
+        {/* <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} /> */}
         <div>{this.props.children}</div>
         <Footer />
       </div>

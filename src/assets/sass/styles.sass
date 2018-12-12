@@ -3,6 +3,37 @@
 $primary: #00d1b2
 $primary-invert: #ffffff
 
+html
+  /* ensure that all of the viewport is used */
+  width: 100%
+  height: 100%
+  /* ensure that no scrollbars appear */
+  margin: 0
+  padding: 0
+  /* center SVG horizontally and vertically */
+  display: flex
+  align-items: center
+  justify-content: center
+  background: url(../../../static/img/bottom_board.svg);
+  background-size: 100% 100%;
+
+#splash-svg-bg 
+  position: absolute
+  top: 0
+  left: 0
+  /* ensure 1:1 aspect ratio, tweak 50 to make SVG larger */
+  width: 100vmin
+  height: 100vmin
+  /* set some maximum size (width and height need to match
+   * aspect ratio, 1:1 in this case */
+
+#splash-graphic
+  height: 85vh
+  width: 85vw
+  min-width: 350px
+  min-height: 450px
+  
+
 nav
   border-bottom: lightgray solid 0.1vmin
 
@@ -23,3 +54,9 @@ nav
 
 .margin-top-0
   margin-top: 0 !important
+
+.footer
+  position: absolute
+  bottom: 0
+  width: 100%
+  left: 0
