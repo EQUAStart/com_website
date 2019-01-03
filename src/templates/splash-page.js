@@ -7,13 +7,13 @@ const SplashPage = ({data}) => {
   const {frontmatter} = data.markdownRemark
 
   return (
-    <div>
-    <SplashPageTemplate
-      title={frontmatter.title}
-      meta_title={frontmatter.meta_title}
-      meta_description={frontmatter.meta_description}
-    />
-      <img id='splash-graphic' src='/img/icon_presentation@1x.svg'/>
+    <div className='splash-graphic-container'>
+      <SplashPageTemplate
+        title={frontmatter.title}
+        meta_title={frontmatter.meta_title}
+        meta_description={frontmatter.meta_description}
+      />
+      <img id='splash-graphic' src='/img/icon_presentation@1x.svg' />
     </div>
   )
 }
