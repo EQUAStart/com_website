@@ -1,7 +1,7 @@
-
-<svg width="800px" height="600px" viewBox="185 50 400 600"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon_presentation@1x</title>
+    <title>Icon_presentation</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M248.749256,434 L245.498513,434 C241.909483,434 239,431.090063 239,427.508023 L239,425.491977 C239,421.906557 241.915977,419 245.498513,419 L252,419 L252,69.0055712 C252,62.3750773 257.372102,57 263.998796,57 L535.001204,57 C541.627956,57 547,62.3714173 547,69.0055712 L547,88 L571.501487,88 C575.090517,88 578,90.9099366 578,94.4919773 L578,96.5080227 C578,100.093443 575.084023,103 571.501487,103 L547,103 L535.498513,103 C531.915977,103 529,105.906557 529,109.491977 L529,111.508023 C529,115.090063 531.909483,118 535.498513,118 L547,118 L547,118.018838 C550.356108,118.273456 553,121.077341 553,124.491977 L553,126.508023 C553,129.925599 550.350643,132.726384 547,132.98112 L547,475.994429 C547,482.624923 541.627898,488 535.001204,488 L263.998796,488 C257.372044,488 252,482.628583 252,475.994429 L252,464 L233.498513,464 C229.909483,464 227,461.090063 227,457.508023 L227,455.491977 C227,451.906557 229.915977,449 233.498513,449 L252,449 L276.501487,449 C280.084023,449 283,446.093443 283,442.508023 L283,440.491977 C283,436.909937 280.090517,434 276.501487,434 L248.749256,434 Z M556.5,152 C552.910149,152 550,149.089851 550,145.5 C550,141.910149 552.910149,139 556.5,139 C560.089851,139 563,141.910149 563,145.5 C563,149.089851 560.089851,152 556.5,152 Z" id="path-1"></path>
@@ -23,7 +23,7 @@
             <stop stop-color="#9CCD6C" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Icon_presentation" className="grow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Icon_presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="White_BG">
             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
             <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>

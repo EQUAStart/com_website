@@ -1,12 +1,9 @@
 ---
 templateKey: 'splash-page'
-title: EQUA Start 20181212.1118HST
-meta_title: Home | EQUA Start 20181212.1118HST
+title: EQUA Start | Business Simplified
+meta_title: Home | EQUA Start 
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  EQUA START is a blockchain based company focused on simplifying business agreements. Our platform allows members to create a new business, obtain a bank account and tax ID within minutes. The result is a system that significantly reduces the amount of time and money getting forming and managing a company. With small businesses comprising a majority of registered entities across the globe, EQUA START seeks to develop a cost-effective & one-stop destination for documents, banking, and compliance.
 heading: Lorem ipsum dolor sit amet
 description: >-
   Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
