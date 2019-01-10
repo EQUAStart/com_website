@@ -1,5 +1,5 @@
 ---
-templateKey: 'splash-page'
+templateKey: 'home-page'
 title: EQUA Start | Business Simplified
 meta_title: Home | EQUA Start 
 meta_description: >-

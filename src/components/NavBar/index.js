@@ -14,8 +14,8 @@ const NavBar = ({toggleNavbar, isActive}) => (
     render={data => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
-          <Link to='/' className='navbar-item'>
-            <strong>Gatsby Starter Business</strong>
+          <Link to='/' className='navbar-item home-link'>
+            <strong>EQUA Start</strong>
           </Link>
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
@@ -31,14 +31,23 @@ const NavBar = ({toggleNavbar, isActive}) => (
 
           <div className='navbar-end'>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
-            <Link className='navbar-item' to='/about'>
-                            About
+            <Link className='navbar-item' to='/get-started'>
+              Get Started
             </Link>
-            <Link className='navbar-item' to='/pricing'>
-                            Pricing
+            <Link className='navbar-item' to='/login'>
+              Log In
+            </Link>
+            <Link className='navbar-item' to='/investor-portal'>
+              Investor Portal
             </Link>
             <Link className='navbar-item' to='/blog'>
-                            Blog
+              Blog
+            </Link>
+            <Link className='navbar-item' to='/partners'>
+              Partners
+            </Link>
+            <Link className='navbar-item' to='/press'>
+              Press
             </Link>
             <div className='navbar-item'>
               <div className='field is-grouped'>
@@ -46,7 +55,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
                   <Link
                     className='button is-primary is-outlined'
                     to='/contact'>
-                            Contact Us
+                      Contact Us
                   </Link>
                 </p>
               </div>
