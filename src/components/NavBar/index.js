@@ -29,38 +29,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
         </div>
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
-          <div className='navbar-end'>
-            <SearchBox searchIndex={data.siteSearchIndex.index} />
-            <Link className='navbar-item' to='/get-started'>
-              Get Started
-            </Link>
-            <Link className='navbar-item' to='/login'>
-              Log In
-            </Link>
-            <Link className='navbar-item' to='/investor-portal'>
-              Investor Portal
-            </Link>
-            <Link className='navbar-item' to='/blog'>
-              Blog
-            </Link>
-            <Link className='navbar-item' to='/partners'>
-              Partners
-            </Link>
-            <Link className='navbar-item' to='/press'>
-              Press
-            </Link>
-            <div className='navbar-item'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <Link
-                    className='button is-primary is-outlined'
-                    to='/contact'>
-                      Contact Us
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </nav>
     )}
