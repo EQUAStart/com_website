@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Contact from '../Contact'
+import ContactForm from '../ContactForm'
 import PropTypes from 'prop-types'
 
 const ContactPageTemplate = ({
@@ -36,9 +36,9 @@ const ContactPageTemplate = ({
       </section>
       <section className='section'>
         <div className='container'>
-          {contacts.map((contact, id) =>
-            <Contact key={id} email={contact.email} description={contact.description} />
-          )}
+          <section> 
+            <ContactForm description="" />
+          </section>
         </div>
       </section>
     </div>

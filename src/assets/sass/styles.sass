@@ -12,16 +12,14 @@ html
   margin: 0
   padding: 0
   /* center SVG horizontally and vertically */
-  display: flex
+  // display: flex
   align-items: center
   justify-content: center
-  background: url(../../../static/img/bottom_board.svg)
-  background-size: 100% 100%
+  // background: url(../../../static/img/bottom_board.svg)
+  // background-size: 100% 100%
 
 body
-  font-family: "Kiona-Regular","Kiona"
-  
-  // font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   
 body > div 
   transition:all .5s ease 
@@ -48,17 +46,23 @@ body > div
   100% 
     transform: scale(1)
   
+.navbar-item.home-link
+  font-family: "Kiona"
 
 
 #splash-graphic
-  height: 85vh
-  width: 85vw
-  min-width: 350px
-  min-height: 450px
+  // height: 100%
+  // width: 100%
+  margin: -1rem
+  padding: .5rem
+  min-width: 20rem
+  min-height: 35rem
 
 .splash-graphic-container
-  animation-duration: 10s
-  animation-name: bounceIn
+  // animation-duration: 10s
+  // animation-name: bounceIn
+  // display: flex
+  
   
 #Icon_presentation 
   
@@ -87,7 +91,7 @@ nav
   margin-top: 0 !important
 
 .footer
-  position: absolute
+  // position: absolute
   bottom: 0
   width: 100%
   left: 0
