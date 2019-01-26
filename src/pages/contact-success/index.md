@@ -8,6 +8,6 @@ meta_description: >-
 ---
 ## Keep an eye out for exciting updates!
 
-We'll be sending you email updates as to our progress, and shsare with you the growing opportunities as we evolve the future of agreements!
+We'll be sending you email updates as to our progress, and share with you the growing opportunities as we evolve the future of agreements!
 
 ---
