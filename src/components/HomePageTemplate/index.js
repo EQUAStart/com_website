@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
-import Contact from '../Contact'
+import ContactForm from '../ContactForm'
 
 const HomePageTemplate = ({
   title,
@@ -39,7 +39,7 @@ const HomePageTemplate = ({
         <section className="section section-gradient">
           <div className="columns is-desktop">
               <div className="column">
-                <Contact description={contact_form_description}></Contact>
+                <ContactForm description={contact_form_description}></ContactForm>
               </div>
               <div className="column">
                 <div className='splash-graphic-container'>
