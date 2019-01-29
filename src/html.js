@@ -9,7 +9,7 @@ export default class HTML extends Component {
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
           {this.props.headComponents}
-          <link rel='shortcut icon' href={favicon} />
+          <link rel='shortcut icon' href={favicon + '?q=' + Math.random().toString()} />
         </head>
         <body>
           <div
