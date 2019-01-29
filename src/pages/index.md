@@ -1,13 +1,14 @@
 ---
-templateKey: 'splash-page'
-title: EQUA Start | Business Simplified
+templateKey: 'home-page'
+title: EQUA Start | The Evolution of Agreements
 meta_title: Home | EQUA Start 
 meta_description: >-
-  EQUA START is a blockchain based company focused on simplifying business agreements. Our platform allows members to create a new business, obtain a bank account and tax ID within minutes. The result is a system that significantly reduces the amount of time and money getting forming and managing a company. With small businesses comprising a majority of registered entities across the globe, EQUA START seeks to develop a cost-effective & one-stop destination for documents, banking, and compliance.
+  EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create new businesses, and key business agreements such as owner, vendor, employee, and customer agreements with in minutes.  Then breathe life into them to become living documents as decisions are made per the rules of these agreements. Reduces the amount of time and money spent while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now. 
 heading: Lorem ipsum dolor sit amet
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+  EQUA START is a blockchain based company focused on simplifying business agreements.
+contact_form_description: >-
+  Stay in Touch!
 offerings:
   blurbs:
     - image: /img/coffee.png
