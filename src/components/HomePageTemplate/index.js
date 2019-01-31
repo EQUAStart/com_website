@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
-import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 import ContactForm from '../ContactForm'
+import TeamSection from '../TeamSection';
 
 const HomePageTemplate = ({
   title,
@@ -14,6 +13,7 @@ const HomePageTemplate = ({
   meta_title,
   meta_description,
   testimonials,
+  team_members
 }) => (
   <div>
     <Helmet>
@@ -51,6 +51,10 @@ const HomePageTemplate = ({
       </div>
     </section>
 
+    <section className="section">
+      <TeamSection teamMembers={team_members}/>
+    </section>
+
 
   </div>
 )
@@ -66,7 +70,9 @@ HomePageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   testimonials: PropTypes.array,
-
+  team_members: PropTypes.shape({
+    members: PropTypes.array,
+  })
 }
 
 export default HomePageTemplate

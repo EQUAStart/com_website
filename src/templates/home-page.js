@@ -16,6 +16,7 @@ const HomePage = ({data}) => {
       contact_form_description={frontmatter.contact_form_description}
       offerings={frontmatter.offerings}
       testimonials={frontmatter.testimonials}
+      team_members={frontmatter.team_members}
     />
   )
 }
@@ -49,6 +50,13 @@ export const pageQuery = graphql`
         testimonials {
           author
           quote
+        }
+        team_members {
+          members {
+            fullName
+            picture
+            bio
+          }
         }
       }
     }
