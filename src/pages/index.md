@@ -11,18 +11,30 @@ contact_form_description: >-
   Stay in Touch!
 team_members:
   members:
-    - fullName: Chuck Williams
-    - picture: /img/coffee.png
+    - fullName: Shawn Owen
+      picture: /img/biopics/bios_color_treatment_0002_Shawn.jpg
       bio: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae tincidunt ut, 
-        scelerisque eu sem. Etiam porttitor elit eget mi luctus, vitae blandit enim pretium. 
-        Aenean nec hendrerit leo, a bibendum magna. In hac habitasse platea dictumst. 
-        Suspendisse sapien magna, vestibulum non vehicula id, pellentesque in ante. Nullam 
-        sed auctor tellus. Sed ipsum sem, dapibus nec eros in, feugiat sagittis mi. 
-        Nullam et dui interdum, varius nibh eu, efficitur metus.
+        Shawn Owen is an entrepreneur with experience in management and ownership of enterprise operations with a passion for systems development, business operations, product delivery, and client service. Shawn became involved with blockchain technology through his advocacy of bitcoin in early 2011. He frequently speaks and writes on Blockchain technology and digital currencies. A dynamic and energetic operator with 23 years in business operations with proven track record of progressive graduation of growth both personal and professional, Shawn has experience in both corporate structure globally administered and owner operated concepts.
+    - fullName: Sten Wei
+      picture: /img/biopics/bios_color_treatment_0001_Sten.jpg
+      bio: >
+        Sten Wie is a project manager with a background in cancer biology and a PhD in Biochemistry & Molecular Genetics. During his academic career he published papers on radiation damage and earned a patent for a novel therapy related to preventing radiation damage. Although academic research is seemingly divergent, Sten was lured to blockchain via his libertarian roots. Exposure to sound money principles opened the door to blockchain influencers such as Tim Draper, Andreas Antonopoulos, and Charlie Shrem. At that time, the Denver Blockchain society was taking off. Attending the early meetups emboldened Sten to study the fundamentals and benefits of blockchain while getting involved in various projects. 
+    - fullName: Matt Armstrong
+      picture: /img/biopics/bios_color_treatment_0000_Matt.jpg
+      bio: >
+        Matt has co-founded and accelerated multiple DLT startups worldwide. He has experience as a business strategist, deal flow analyst and advisor of multiple fintech projects. With over 10+ years of experience in project management, lead generation and community building Matt has established himself as a personal startup accelerator though his current company CoSeed Inc.
+    - fullName: Marion Keyes
+      picture: /img/biopics/bios_color_treatment_0003_Marion.jpg
+      bio: >
+        Marion Keyes is a corporate advisor and business strategist who develops and implements creative legal solutions that help clients achieve their high-level business and financial objectives.  Licensed to practice law in nine domestic jurisdictions (Colorado, Illinois, Georgia, Kansas, Minnesota, Missouri, Oregon, Texas and Washington), Marion brings a keen understanding of how the law changes from one jurisdiction to another and why someone might choose a particular jurisdiction over another. Marion’s practice primarily focuses on Corporate Planning and Formation; International Taxation (including the taxation of foreign corporations, foreign operations and transactions, controlled foreign corporations, subpart F matters, foreign taxes, foreign tax credits, cross-border transactions, tax treaties, and export incentives); and Digital-Currency Law (AML/ATF Compliance, Money Transmission Laws, etc.).
+    - fullName: Kelley Cochran
+      picture: /img/biopics/bios_color_treatment_0004_Kelley.jpg
+      bio: >
+        Kelley Cochran is a proven leader with a passion for not only getting the job done, but also completing it with impeccable details and pride. After working in Interior Design and Hospitality Management, she became an Executive Assistant to the CEO which was an exciting career change for her into the Administrative realm, where she learned that it was very similar to the organized chaos of Hospitality. Kelley has since branched out again into the Operations and Project Management side of business management, expanding her skills even further. She also recently started her own Interior Decorating/Event Planning business, and enjoys the creative aspects and freedoms that this allows her to pursue when she can. She is willing to tackle any challenge and thrives on completing her tasks with a positive attitude. 
+    - fullName: Chuck Williams
+      picture: /img/biopics/bios_color_treatment_0005_Chuck.jpg
+      bio: >
+        Chuck Williams advocates for human empathy as a skill to enhance developer effectiveness. While leading software design & development teams, he has been a recognized inventor on patent efforts with Level3 Communications & Shutterfly.com. He was a speaker/facilitator at many conference events worlwide. He enjoys researching, understanding, and evangelizing the convergence of technology, economics, & philosophy in cryptocurrency & blockchains. He currently co-hosts “The Crypto Show" broadcast syndicated on Bloomberg radio stations around the United States, contributes media content to the Dash community, and consults, develops, serves, and assists blockchain/cryptocurrency projects. Previous software contributions also include banking & investment, publishing, television, logistics, legal, sports, retail, and government industry applications.   
 offerings:
   blurbs:
     - image: /img/coffee.png
