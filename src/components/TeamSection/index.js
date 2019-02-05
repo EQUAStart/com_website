@@ -4,10 +4,10 @@ import TeamMember from '../TeamMember'
 const TeamSection = ({teamMembers}) => {
   return (
     <div className='container'>
-      <div className="columns is-multiline">
+      <div className="columns is-multiline is-centered">
       {teamMembers.members
         .map( member => (
-          <div className="column is-one-third">
+          <div className="column is-one-quarter">
             <TeamMember member={member} />
           </div>
           ))}

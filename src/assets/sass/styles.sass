@@ -71,6 +71,44 @@ body > div
   
   
 #Icon_presentation 
+
+.team.section
+  background: #333
+  background-image: linear-gradient(180deg, #666 0%, #333 50%)
+  & .card
+    border: 1px solid black
+    transition: opacity 0.75s, transform 0.75s, width .75s
+    color: #fff
+    opacity: 1
+    & .card-content
+      background: #666
+      transition: background 1.5s
+    & .card-content .media .media-content .title
+      color: #fff
+    & .content
+      opacity: 0
+      height: 0
+      overflow: hidden
+    &:hover
+      color: #000
+      transform: translate3d(0,-10%,0) translate3d(0px,0px,0)
+      background: #fff
+      float: left
+      z-index: 100
+      position: absolute
+      width: 28%
+      float: left
+      clear: none
+      & .card-content
+        background: #fff
+      & .card-content .media .media-content .title
+        color: #000
+      & .content
+        opacity: 1
+        height: 100%
+        overflow: visible
+
+
   
   
   

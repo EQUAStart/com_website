@@ -50,10 +50,11 @@ const HomePageTemplate = ({
         </section>
       </div>
     </section>
-
+    <a name='equateam' />
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
+          
           <h1 class="title is-1">The Equa Team</h1>
           <h2 class="subtitle">
             We are evolving agreements.
@@ -62,8 +63,19 @@ const HomePageTemplate = ({
       </div>
     </section>
 
-    <section className="section">
+    <section className="section team">
       <TeamSection teamMembers={team_members}/>
+    </section>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          
+          <h1 class="title is-1"></h1>
+          <h2 class="subtitle">
+          </h2>
+        </div>
+      </div>
     </section>
 
 
