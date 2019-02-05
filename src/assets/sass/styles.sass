@@ -93,12 +93,6 @@ body > div
       color: #000
       transform: translate3d(0,-10%,0) translate3d(0px,0px,0)
       background: #fff
-      float: left
-      z-index: 100
-      position: absolute
-      width: 28%
-      float: left
-      clear: none
       & .card-content
         background: #fff
       & .card-content .media .media-content .title
@@ -108,7 +102,10 @@ body > div
         height: 100%
         overflow: visible
 
-
+@media mobile
+  .team.section .card:hover
+    width: 95%
+  
   
   
   
