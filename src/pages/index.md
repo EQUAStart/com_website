@@ -3,7 +3,7 @@ templateKey: 'home-page'
 title: EQUA Start | The Evolution of Agreements
 meta_title: Home | EQUA Start 
 meta_description: >-
-  EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create new businesses, and key business agreements such as owner, vendor, employee, and customer agreements with in minutes.  Then breathe life into them to become living documents as decisions are made per the rules of these agreements. Reduces the amount of time and money spent while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now. 
+  EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create a new businesses, and key business agreements such as owner, vendor, employee, and customer agreements with in minutes. Then, breathe life into your living documents as decisions are made within these agreements. EQUA Reduces the amount of time and money spent while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now.
 heading: Lorem ipsum dolor sit amet
 description: >-
   EQUA START is a blockchain based company focused on simplifying business agreements.
@@ -34,7 +34,7 @@ team_members:
     - fullName: Chuck Williams
       picture: /img/biopics/bios_color_treatment_0005_Chuck.jpg
       bio: >
-        Chuck Williams advocates for human empathy as a skill to enhance developer effectiveness. While leading software design & development teams, he has been a recognized inventor on patent efforts with Level3 Communications & Shutterfly.com. He was a speaker/facilitator at many conference events worlwide. He enjoys researching, understanding, and evangelizing the convergence of technology, economics, & philosophy in cryptocurrency & blockchains. He currently co-hosts “The Crypto Show" broadcast syndicated on Bloomberg radio stations around the United States, contributes media content to the Dash community, and consults, develops, serves, and assists blockchain/cryptocurrency projects. Previous software contributions also include banking & investment, publishing, television, logistics, legal, sports, retail, and government industry applications.   
+        Chuck Williams advocates for human empathy as a skill to enhance developer effectiveness. While leading software design & development teams, he has been a recognized inventor on patent efforts with Level3 Communications & Shutterfly.com. He was a speaker/facilitator at many conference events worldwide. He enjoys researching, understanding, and evangelizing the convergence of technology, economics, & philosophy in cryptocurrency & blockchains. He currently co-hosts “The Crypto Show" broadcast syndicated on Bloomberg radio stations around the United States, contributes media content to the Dash community, and consults, develops, serves, and assists blockchain/cryptocurrency projects. Previous software contributions also include banking & investment, publishing, television, logistics, legal, sports, retail, and government industry applications.   
 offerings:
   blurbs:
     - image: /img/coffee.png

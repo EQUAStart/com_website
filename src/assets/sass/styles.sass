@@ -1,5 +1,7 @@
 $primary: rgb( 0 ,125 ,243)
 $primary-invert: #ffffff
+$gradient-top-left: rgb( 6 ,251 ,150)
+$gradient-bottom-right: rgb( 1 ,60 ,176)
 
 @import "~bulma"
 @import "fonts"
@@ -24,6 +26,9 @@ body
   
 body > div 
   transition:all .5s ease 
+
+.hero.is-primary.is-bold
+  background-image: linear-gradient(169deg, $gradient-top-left 0%, $primary 36%, $gradient-bottom-right 65%)
   
 #splash-svg-bg 
   position: absolute

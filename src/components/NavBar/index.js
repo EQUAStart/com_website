@@ -15,7 +15,16 @@ const NavBar = ({toggleNavbar, isActive}) => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item home-link'>
-            <strong>EQUA Start</strong>
+            <div class='media'>
+              <div class='media-left'>
+                <figure >
+                  <img src='/icons/favicon-64x64.png' />
+                </figure>
+              </div>
+              <div class='media-content'>
+                <strong> EQUA Start</strong>
+              </div>
+            </div>
           </Link>
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
