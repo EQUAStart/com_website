@@ -40,6 +40,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
 
           <div className="navbar-end">
             <a href='#equateam' className='navbar-item'>The Equa Team</a>
+            <a href='#equacareers' className='navbar-item'>Careers</a>
             <a className='navbar-item' href='https://auth.merrillcorp.com/as/authorization.oauth2?client_id=Apigee&response_type=code&redirect_uri=https://datasiteone.merrillcorp.com/global/callback&state=&scope=openid' target='_blank'>
               Investor's Portal
             </a>

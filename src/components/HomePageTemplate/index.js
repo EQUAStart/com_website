@@ -2,7 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import ContactForm from '../ContactForm'
-import TeamSection from '../TeamSection';
+import TeamSection from '../TeamSection'
+import Careers from '../Careers'
 
 const HomePageTemplate = ({
   title,
@@ -67,13 +68,34 @@ const HomePageTemplate = ({
       <TeamSection teamMembers={team_members}/>
     </section>
 
+
+    <a name='equacareers' />
+
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
           
-          <h1 class="title is-1"></h1>
+          <h1 class="title is-1">Equa Careers</h1>
           <h2 class="subtitle">
+            Evolve agreements with us!
           </h2>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div className='container'>
+        <h1>&nbsp;</h1>
+        <div className='columns'>
+          <div className='column is-two-thirds'>
+            <Careers />
+          </div>
+          <div className='column '>
+              <figure class='image is-4by3'>
+                <img className='is-rounded' src='/img/todo-list.jpeg' />
+              </figure>
+          </div>
+
         </div>
       </div>
     </section>
