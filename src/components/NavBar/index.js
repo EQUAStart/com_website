@@ -15,7 +15,16 @@ const NavBar = ({toggleNavbar, isActive}) => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item home-link'>
-            <strong>EQUA Start</strong>
+            <div class='media'>
+              <div class='media-left'>
+                <figure >
+                  <img src='/icons/favicon-64x64.png' />
+                </figure>
+              </div>
+              <div class='media-content'>
+                <strong> EQUA Start</strong>
+              </div>
+            </div>
           </Link>
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
@@ -30,6 +39,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
           <div className="navbar-end">
+            <a href='#equateam' className='navbar-item'>The Equa Team</a>
             <a className='navbar-item' href='https://auth.merrillcorp.com/as/authorization.oauth2?client_id=Apigee&response_type=code&redirect_uri=https://datasiteone.merrillcorp.com/global/callback&state=&scope=openid' target='_blank'>
               Investor's Portal
             </a>

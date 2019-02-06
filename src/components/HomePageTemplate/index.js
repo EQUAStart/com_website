@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
-import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 import ContactForm from '../ContactForm'
+import TeamSection from '../TeamSection';
 
 const HomePageTemplate = ({
   title,
@@ -14,6 +13,7 @@ const HomePageTemplate = ({
   meta_title,
   meta_description,
   testimonials,
+  team_members
 }) => (
   <div>
     <Helmet>
@@ -50,6 +50,33 @@ const HomePageTemplate = ({
         </section>
       </div>
     </section>
+    <a name='equateam' />
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          
+          <h1 class="title is-1">The Equa Team</h1>
+          <h2 class="subtitle">
+            We are evolving agreements.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section className="section team">
+      <TeamSection teamMembers={team_members}/>
+    </section>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          
+          <h1 class="title is-1"></h1>
+          <h2 class="subtitle">
+          </h2>
+        </div>
+      </div>
+    </section>
 
 
   </div>
@@ -66,7 +93,9 @@ HomePageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   testimonials: PropTypes.array,
-
+  team_members: PropTypes.shape({
+    members: PropTypes.array,
+  })
 }
 
 export default HomePageTemplate
