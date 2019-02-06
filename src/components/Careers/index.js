@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 class Careers extends Component {
 
-  componentWillMount () {
+  componentDidMount () {
     const script = document.createElement('script')
 
     script.src = 'https://equa.bamboohr.com/js/jobs2.php'
