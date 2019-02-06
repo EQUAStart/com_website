@@ -20,6 +20,7 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Contact Form Description, name: contact_form_description, widget: string}
           - {label: Offerings, name: offerings, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: "Team Members", name: teamMembers, widget: object, fields: [{label: Members, name: members, widget: list, fields: [{label: "Full Name", name: fullName, widget: text}, {label: Picture, name: picture, widget: image}, {label: Bio, name: bio, widget: text}]}]}
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
