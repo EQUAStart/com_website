@@ -15,13 +15,13 @@ const NavBar = ({toggleNavbar, isActive}) => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item home-link'>
-            <div class='media'>
-              <div class='media-left'>
+            <div className='media'>
+              <div className='media-left'>
                 <figure >
                   <img src='/icons/favicon-64x64.png' />
                 </figure>
               </div>
-              <div class='media-content'>
+              <div className='media-content'>
                 <strong> EQUA Start</strong>
               </div>
             </div>

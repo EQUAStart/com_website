@@ -23,12 +23,12 @@ const HomePageTemplate = ({
     </Helmet>
 
     <section className="section hero is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">
           {title}
           </h1>
-          <h2 class="subtitle">
+          <h2 className="subtitle">
           {meta_description}
           </h2>
         </div>
@@ -52,12 +52,12 @@ const HomePageTemplate = ({
       </div>
     </section>
     <a name='equateam' />
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container">
           
-          <h1 class="title is-1">The Equa Team</h1>
-          <h2 class="subtitle">
+          <h1 className="title is-1">The Equa Team</h1>
+          <h2 className="subtitle">
             We are evolving agreements.
           </h2>
         </div>
@@ -71,12 +71,12 @@ const HomePageTemplate = ({
 
     <a name='equacareers' />
 
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container">
           
-          <h1 class="title is-1">Equa Careers</h1>
-          <h2 class="subtitle">
+          <h1 className="title is-1">Equa Careers</h1>
+          <h2 className="subtitle">
             Evolve agreements with us!
           </h2>
         </div>
@@ -91,7 +91,7 @@ const HomePageTemplate = ({
             <Careers />
           </div>
           <div className='column '>
-              <figure class='image is-4by3'>
+              <figure className='image is-4by3'>
                 <img className='is-rounded' src='/img/todo-list.jpeg' />
               </figure>
           </div>

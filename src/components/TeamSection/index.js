@@ -6,8 +6,8 @@ const TeamSection = ({teamMembers}) => {
     <div className='container'>
       <div className="columns is-multiline is-centered">
       {teamMembers.members
-        .map( member => (
-          <div className="column is-one-quarter">
+        .map( (member,index) => (
+          <div key={index} className="column is-one-quarter">
             <TeamMember member={member} />
           </div>
           ))}
