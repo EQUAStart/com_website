@@ -3,14 +3,14 @@ import Helmet from 'react-helmet'
 
 class Careers extends Component {
 
-  componentDidMount () {
-    const script = document.createElement('script')
+  // componentDidMount () {
+  //   const script = document.createElement('script')
 
-    script.src = 'https://equa.bamboohr.com/js/jobs2.php'
-    script.async = true
+  //   script.src = 'https://equa.bamboohr.com/js/jobs2.php'
+  //   script.async = true
 
-    document.body.appendChild(script)
-  }
+  //   document.body.appendChild(script)
+  // }
 
   render () {
       return (
