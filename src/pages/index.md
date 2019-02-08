@@ -20,7 +20,7 @@ team_members:
       bio: >
         Sten Wie is a project manager with a background in cancer biology and a PhD in Biochemistry & Molecular Genetics. During his academic career he published papers on radiation damage and earned a patent for a novel therapy related to preventing radiation damage. Although academic research is seemingly divergent, Sten was lured to blockchain via his libertarian roots. Exposure to sound money principles opened the door to blockchain influencers such as Tim Draper, Andreas Antonopoulos, and Charlie Shrem. At that time, the Denver Blockchain society was taking off. Attending the early meetups emboldened Sten to study the fundamentals and benefits of blockchain while getting involved in various projects. 
     - fullName: Matt Armstrong
-      picture: /img/biopics/bios_color_treatment_0000_Matt.jpg
+      picture: /img/biopics/bios_color_treatment_0006_Matt.jpg
       bio: >
         Matt has co-founded and accelerated multiple DLT startups worldwide. He has experience as a business strategist, deal flow analyst and advisor of multiple fintech projects. With over 10+ years of experience in project management, lead generation and community building Matt has established himself as a personal startup accelerator though his current company CoSeed Inc.
     - fullName: Marion Keyes
