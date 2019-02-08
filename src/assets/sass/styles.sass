@@ -86,28 +86,25 @@ body > div
   color: white
   text-shadow: 0 0 5px #000
 
-  & .bg-image 
+  & .bg-image.parallax-bg
+    content: " "
     position: absolute
-    &.parallax-bg
-      content: " "
-      position: absolute
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-      transform: translateZ(-1px) scale(3.5)
-      background-size: 150%
-      z-index: -1
-      height: 100vh
-      background: url('/img/equa-bg-drop.jpg') center center repeat
-      &:after
-        width: 150%
-        height: 150%
-        // top: -10rem
-        // left: -10rem
-        background-size: 150%
-        filter: blur(8px)
-        -webkit-filter: blur(8px)
+    top: 30px
+    right: 0
+    bottom: 0
+    left: 0
+    transform: translateZ(-2px) scale(3.5)
+    // background-size: 150%
+    z-index: -1
+    height: 100vh
+    background: url('/img/equa-bg-drop.jpg') center center repeat-y
+    // background-repeat: repeat-y
+    &:after
+      // width: 150%
+      // height: 150%
+      // // top: -10rem
+      // // left: -10rem
+      // background-size: 150%
   
   & .card
     border: 1px solid white
