@@ -110,19 +110,22 @@ body > div
         -webkit-filter: blur(8px)
   
   & .card
-    border: 1px solid black
+    border: 1px solid white
     transition: opacity 0.75s, transform 0.75s, width .75s
     color: #fff
+    background-color: rgba(0,0,0,.1)
     opacity: 1
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.5)
     & .card-content
       background: #666
+      opacity: .9
       transition: background 1.5s
       font-size: .8rem
 
     & .card-content .media .media-content .title
       color: #fff
     & .content
-      // opacity: 0
+      //  opacity: 0
       height: 19.75rem
       overflow: scroll
     &:hover
