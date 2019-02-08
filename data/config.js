@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: 'chuckwilliasm37',
   userLocation: 'Kailua, Hawaii',
   userDescription: '',
-  copyright: 'Copyright © EQUA Start 2018. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © EQUA Start 2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#50C3C6', // Used for setting manifest and progress theme colors.
   backgroundColor: '#DCF1F8', // Used for setting manifest background color.
 }

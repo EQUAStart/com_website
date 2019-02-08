@@ -16,7 +16,7 @@ const HomePageTemplate = ({
   testimonials,
   team_members
 }) => (
-  <div>
+  <div className='parallax-wrapper'>
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
@@ -56,7 +56,7 @@ const HomePageTemplate = ({
       <div className="hero-body">
         <div className="container">
           
-          <h1 className="title is-1">The Equa Team</h1>
+          <h1 className="title is-1">The Equanauts</h1>
           <h2 className="subtitle">
             We are evolving agreements.
           </h2>
