@@ -15,7 +15,7 @@ team_members:
       picture: /img/biopics/bios_color_treatment_0002_Shawn.jpg
       bio: >
         Shawn Owen is an entrepreneur with experience in management and ownership of enterprise operations with a passion for systems development, business operations, product delivery, and client service. Shawn became involved with blockchain technology through his advocacy of bitcoin in early 2011. He frequently speaks and writes on Blockchain technology and digital currencies. A dynamic and energetic operator with 23 years in business operations with proven track record of progressive graduation of growth both personal and professional, Shawn has experience in both corporate structure globally administered and owner operated concepts.
-    - fullName: Sten Wei
+    - fullName: Sten Wie
       picture: /img/biopics/bios_color_treatment_0001_Sten.jpg
       bio: >
         Sten Wie is a project manager with a background in cancer biology and a PhD in Biochemistry & Molecular Genetics. During his academic career he published papers on radiation damage and earned a patent for a novel therapy related to preventing radiation damage. Although academic research is seemingly divergent, Sten was lured to blockchain via his libertarian roots. Exposure to sound money principles opened the door to blockchain influencers such as Tim Draper, Andreas Antonopoulos, and Charlie Shrem. At that time, the Denver Blockchain society was taking off. Attending the early meetups emboldened Sten to study the fundamentals and benefits of blockchain while getting involved in various projects. 
