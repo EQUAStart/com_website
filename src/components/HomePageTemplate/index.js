@@ -2,7 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import ContactForm from '../ContactForm'
-import TeamSection from '../TeamSection';
+import TeamSection from '../TeamSection'
+import Careers from '../Careers'
+
 
 const HomePageTemplate = ({
   title,
@@ -15,19 +17,19 @@ const HomePageTemplate = ({
   testimonials,
   team_members
 }) => (
-  <div>
+  <div className='parallax-wrapper'>
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
 
     <section className="section hero is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">
           {title}
           </h1>
-          <h2 class="subtitle">
+          <h2 className="subtitle">
           {meta_description}
           </h2>
         </div>
@@ -51,12 +53,13 @@ const HomePageTemplate = ({
       </div>
     </section>
     <a name='equateam' />
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
+
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container">
           
-          <h1 class="title is-1">The Equa Team</h1>
-          <h2 class="subtitle">
+          <h1 className="title is-1">The Equanauts</h1>
+          <h2 className="subtitle">
             We are evolving agreements.
           </h2>
         </div>
@@ -67,13 +70,35 @@ const HomePageTemplate = ({
       <TeamSection teamMembers={team_members}/>
     </section>
 
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
+
+    <a name='equacareers' />
+
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container">
           
-          <h1 class="title is-1"></h1>
-          <h2 class="subtitle">
+          <h1 className="title is-1">Equa Careers</h1>
+          <h2 className="subtitle">
+            Evolve agreements with us!
           </h2>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div className='container'>
+        <h1>&nbsp;</h1>
+        <div className='columns'>
+          <div className='column is-two-thirds'>
+            <Careers />
+            <script src="https://equa.bamboohr.com/js/jobs2.php" type="text/javascript"></script>
+          </div>
+          <div className='column '>
+              <figure className='image is-4by3'>
+                <img className='is-rounded' src='/img/todo-list.jpeg' />
+              </figure>
+          </div>
+
         </div>
       </div>
     </section>

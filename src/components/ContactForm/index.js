@@ -12,27 +12,27 @@ const ContactForm = ({email, description}) => {
         <div className="message-body has-background-white-ter" >
           <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/contact-success">
             <input type="hidden" name="form-name" value="contact" />
-            <p>
+            <section>
               <label className="label" >Your Name:</label>
               <div className="control">
                 <input className="input" type="text" name="name" />   
               </div>
-            </p>
-            <p>
+            </section>
+            <section>
               <label className="label">Your Email:</label>
               <div className="control">
                 <input className="input" type="email" name="email" />
               </div>
-            </p>
-            <p>
+            </section>
+            <section>
               <label className="label">Message: </label>
               <div className="control">
                 <textarea className="textarea" name="message"></textarea>
               </div>
-            </p>
-            <p>
+            </section>
+            <section>
               <button className="button is-primary is-large" type="submit">Send</button>
-            </p>
+            </section>
           </form>
         </div>
       </article>
@@ -44,7 +44,7 @@ const ContactForm = ({email, description}) => {
 }
 
 ContactForm.propTypes = {
-  email: PropTypes.string.isRequired,
+  email: PropTypes.string,
   description: PropTypes.string,
 }
 

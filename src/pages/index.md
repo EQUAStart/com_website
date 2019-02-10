@@ -1,6 +1,6 @@
 ---
 templateKey: 'home-page'
-title: EQUA Start | The Evolution of Agreements
+title: EQUA Start | Agreements Evolved
 meta_title: Home | EQUA Start 
 meta_description: >-
   EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create a new businesses, and key business agreements such as owner, vendor, employee, and customer agreements with in minutes. Then, breathe life into your living documents as decisions are made within these agreements. EQUA Reduces the amount of time and money spent while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now.
@@ -15,12 +15,13 @@ team_members:
       picture: /img/biopics/bios_color_treatment_0002_Shawn.jpg
       bio: >
         Shawn Owen is an entrepreneur with experience in management and ownership of enterprise operations with a passion for systems development, business operations, product delivery, and client service. Shawn became involved with blockchain technology through his advocacy of bitcoin in early 2011. He frequently speaks and writes on Blockchain technology and digital currencies. A dynamic and energetic operator with 23 years in business operations with proven track record of progressive graduation of growth both personal and professional, Shawn has experience in both corporate structure globally administered and owner operated concepts.
-    - fullName: Sten Wei
+
+    - fullName: Sten Wie
       picture: /img/biopics/bios_color_treatment_0001_Sten.jpg
       bio: >
         Sten Wie is a project manager with a background in cancer biology and a PhD in Biochemistry & Molecular Genetics. During his academic career he published papers on radiation damage and earned a patent for a novel therapy related to preventing radiation damage. Although academic research is seemingly divergent, Sten was lured to blockchain via his libertarian roots. Exposure to sound money principles opened the door to blockchain influencers such as Tim Draper, Andreas Antonopoulos, and Charlie Shrem. At that time, the Denver Blockchain society was taking off. Attending the early meetups emboldened Sten to study the fundamentals and benefits of blockchain while getting involved in various projects. 
     - fullName: Matt Armstrong
-      picture: /img/biopics/bios_color_treatment_0000_Matt.jpg
+      picture: /img/biopics/bios_color_treatment_0006_Matt.jpg
       bio: >
         Matt has co-founded and accelerated multiple DLT startups worldwide. He has experience as a business strategist, deal flow analyst and advisor of multiple fintech projects. With over 10+ years of experience in project management, lead generation and community building Matt has established himself as a personal startup accelerator though his current company CoSeed Inc.
     - fullName: Marion Keyes
