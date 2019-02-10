@@ -5,6 +5,7 @@ import ContactForm from '../ContactForm'
 import TeamSection from '../TeamSection'
 import Careers from '../Careers'
 
+
 const HomePageTemplate = ({
   title,
   heading,
@@ -52,6 +53,7 @@ const HomePageTemplate = ({
       </div>
     </section>
     <a name='equateam' />
+
     <section className="hero is-primary">
       <div className="hero-body">
         <div className="container">

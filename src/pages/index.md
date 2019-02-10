@@ -15,6 +15,7 @@ team_members:
       picture: /img/biopics/bios_color_treatment_0002_Shawn.jpg
       bio: >
         Shawn Owen is an entrepreneur with experience in management and ownership of enterprise operations with a passion for systems development, business operations, product delivery, and client service. Shawn became involved with blockchain technology through his advocacy of bitcoin in early 2011. He frequently speaks and writes on Blockchain technology and digital currencies. A dynamic and energetic operator with 23 years in business operations with proven track record of progressive graduation of growth both personal and professional, Shawn has experience in both corporate structure globally administered and owner operated concepts.
+
     - fullName: Sten Wie
       picture: /img/biopics/bios_color_treatment_0001_Sten.jpg
       bio: >
