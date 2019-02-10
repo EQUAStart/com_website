@@ -1,24 +1,39 @@
-import React, {Component} from 'react'
-import favicon from './assets/img/favicon.ico'
+import React from "react"
+import PropTypes from "prop-types"
 
-export default class HTML extends Component {
-  render () {
+export default class HTML extends React.Component {
+  render() {
     return (
-      <html lang='en' className='has-navbar-fixed-top'>
+      <html {...this.props.htmlAttributes}>
         <head>
-          <meta charSet='utf-8' />
-          <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+          <meta charSet="utf-8" />
+          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
           {this.props.headComponents}
-          <link rel='shortcut icon' href={favicon + '?q=' + Math.random().toString()} />
         </head>
-        <body>
+        <body {...this.props.bodyAttributes}>
+          {this.props.preBodyComponents}
           <div
-            id='___gatsby'
-            dangerouslySetInnerHTML={{__html: this.props.body}}
+            key={`body`}
+            id="___gatsby"
+            dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <script src="https://equa.bamboohr.com/js/jobs2.php" type="text/javascript"></script>
         </body>
       </html>
     )
   }
+}
+
+HTML.propTypes = {
+  htmlAttributes: PropTypes.object,
+  headComponents: PropTypes.array,
+  bodyAttributes: PropTypes.object,
+  preBodyComponents: PropTypes.array,
+  body: PropTypes.string,
+  postBodyComponents: PropTypes.array,
 }

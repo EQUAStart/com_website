@@ -2,7 +2,7 @@ import React from 'react'
 
 const TeamMember = ({member}) => {
   return (
-    <div className="card">
+    <div className="card" >
       <div className="card-image">
         <figure className="image is-5by7">
           <img src={member.picture} alt="Placeholder image" />
