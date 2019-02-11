@@ -18,13 +18,16 @@ const NavBar = ({toggleNavbar, isActive}) => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item home-link'>
+
             <div className='media'>
               <div className='media-left'>
                 <figure >
                   <img src='/icons/favicon-64x64.png' />
                 </figure>
               </div>
+
               <div className='media-content'>
+
                 <strong> EQUA Start</strong>
               </div>
             </div>
@@ -42,6 +45,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
           <div className="navbar-end">
+
             <a href='#equateam' className='navbar-item'>The Equanauts</a>
             <a href='#equacareers' className='navbar-item'>Careers</a>
             <OutboundLink target='_blank' className='navbar-item'
