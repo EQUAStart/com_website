@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, graphql, StaticQuery} from 'gatsby'
 import SearchBox from '../SearchBox'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const NavBar = ({toggleNavbar, isActive}) => (
   <StaticQuery
@@ -41,9 +42,16 @@ const NavBar = ({toggleNavbar, isActive}) => (
           <div className="navbar-end">
             <a href='#equateam' className='navbar-item'>The Equanauts</a>
             <a href='#equacareers' className='navbar-item'>Careers</a>
-            <a className='navbar-item' href='https://auth.merrillcorp.com/as/authorization.oauth2?client_id=Apigee&response_type=code&redirect_uri=https://datasiteone.merrillcorp.com/global/callback&state=&scope=openid' target='_blank'>
+            <OutboundLink target='_blank' className='navbar-item'
+              href='http://equa.consulting/'
+                    >
+              Services
+            </OutboundLink>
+            <OutboundLink target='_blank' className='navbar-item'
+              href='https://auth.merrillcorp.com/as/authorization.oauth2?client_id=Apigee&response_type=code&redirect_uri=https://datasiteone.merrillcorp.com/global/callback&state=&scope=openid'
+                    >
               Investor's Portal
-            </a>
+            </OutboundLink>
           </div>
           
         </div>
