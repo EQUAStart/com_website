@@ -13,6 +13,9 @@
     "clean": "rm -rf public/ .cache/"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.1.1",
     "bulma": "^0.7.2",
     "gatsby": "^2.0.33",
@@ -35,15 +38,18 @@
     "gatsby-source-filesystem": "^2.0.9",
     "gatsby-transformer-remark": "^2.1.13",
     "gatsby-transformer-sharp": "^2.1.8",
+    "i": "^0.3.6",
     "lodash": "^4.17.11",
     "lodash-webpack-plugin": "^0.11.5",
     "netlify-cms": "^2.2.0",
     "node-sass": "^4.10.0",
+    "npm": "^6.7.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.3.0",
     "react-share": "^2.4.0",
     "uglifyjs-webpack-plugin": "^2.0.1"
   },
@@ -53,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
