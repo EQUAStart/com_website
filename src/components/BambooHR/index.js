@@ -31,7 +31,7 @@
 		embedUrl += '?departmentId=' + encodeURIComponent(departmentId);
 	}
 
-	window.addEventListener('load', function(event) {
+	// window.addEventListener('load', function(event) {
 		if (event.target.readyState === "complete") {
 			if (ieFlag == 1) { //needed for IE9 CORS
 				xmlhttp.onload = loadd;
@@ -60,7 +60,7 @@
 				xmlhttp.send();
 			}
 		}
-	});
+	// });
 
 	function loadd() { //needed for IE9 CORS
 		var content = xmlhttp.responseText;

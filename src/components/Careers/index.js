@@ -32,9 +32,12 @@ class Careers extends Component {
   //     }
   //   }
   // }
-  
-  render () {
+
+  componentDidMount () {
     const bambooHrScript = require('../BambooHR') 
+  }
+
+  render () {
       return (
         <div id='BambooHR-ATS'>
           <Helmet>
