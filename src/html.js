@@ -22,7 +22,6 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script src="https://equa.bamboohr.com/js/jobs2.php" type="text/javascript"></script>
         </body>
       </html>
     )
