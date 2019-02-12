@@ -4,15 +4,16 @@
 	// document.write('<link href="https://equa.bamboohr.com/css/jobs-embed.css" rel="stylesheet" />');
 
   var divId="BambooHR-ATS";
-	var el=document.getElementById(divId);
+	var el= typeof document !== 'undefined' && document.getElementById(divId);
 	if(!el) {
-    let div = document.createElement('div');
+    let div = typeof document !== 'undefined' && document.createElement('div');
     div.innerHTML = "<div id=\""+divId+"\"></div>";
 		document.body.appendChild(div);
 	}
 
 	var xmlhttp;
-	var ieFlag = 0;
+  var ieFlag = 0;
+  var window = typeof window !== 'undefined' && window
 	if (('XDomainRequest' in window && window.XDomainRequest !== null) && document.documentMode < 10) {
 		xmlhttp=new XDomainRequest();
 		ieFlag = 1;
