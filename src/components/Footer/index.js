@@ -10,8 +10,12 @@ const Footer = () => {
         <p>
           {config.copyright}
         </p>
-        <div className={`navbar-menu`} id='footerMenu'>
-          <Link to='/terms-of-use' className='navbar-item'>Terms of use</Link>
+      </div>
+      <div className='container'>
+        <div className='columns is-centered'>
+          <div className='column is-one-third has-text-centered'>
+            <Link to='/terms-of-use'>Terms of use</Link>
+          </div>
         </div>
       </div>
     </footer>
