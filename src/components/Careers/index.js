@@ -12,6 +12,32 @@ class Careers extends Component {
   //   document.body.appendChild(script)
   // }
 
+  // componentDidMount() {
+  //   this._isMounted = true;
+  //   window.onpopstate = ()=> {
+  //     if(this._isMounted) {
+  //       const { hash } = location;
+
+  //       switch ()
+
+  //       if(hash.indexOf('home')>-1 && this.state.value!==0)
+  //         console.log('home')
+  //         this.setState({value: 0})
+  //         if(hash.indexOf('users')>-1 && this.state.value!==1)
+  //         console.log('home')
+  //         this.setState({value: 1})
+  //         if(hash.indexOf('data')>-1 && this.state.value!==2)
+  //         this.setState({value: 2})
+  //         console.log('home')
+  //     }
+  //   }
+  // }
+
+  componentDidMount () {
+    // console.log("componentDidMount()");
+    const bambooHrScript = require('../BambooHR') 
+  }
+
   render () {
       return (
         <div id='BambooHR-ATS'>

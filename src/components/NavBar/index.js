@@ -46,8 +46,8 @@ const NavBar = ({toggleNavbar, isActive}) => (
 
           <div className="navbar-end">
 
-            <a href='#equateam' className='navbar-item'>The Equanauts</a>
-            <a href='#equacareers' className='navbar-item'>Careers</a>
+            <a href='/#equateam' className='navbar-item'>The Equanauts</a>
+            <a href='/#equacareers' className='navbar-item'>Careers</a>
             <OutboundLink target='_blank' className='navbar-item'
               href='http://equa.consulting/'
               title='Equa Consulting Services Home Page Link'

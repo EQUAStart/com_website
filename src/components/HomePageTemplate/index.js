@@ -91,7 +91,6 @@ const HomePageTemplate = ({
         <div className='columns'>
           <div className='column is-two-thirds'>
             <Careers />
-            <script src="https://equa.bamboohr.com/js/jobs2.php" type="text/javascript"></script>
           </div>
           <div className='column '>
               <figure className='image is-4by3'>
@@ -103,7 +102,7 @@ const HomePageTemplate = ({
       </div>
     </section>
 
-
+    
   </div>
 )
 
