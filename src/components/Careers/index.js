@@ -34,6 +34,7 @@ class Careers extends Component {
   // }
 
   componentDidMount () {
+    // console.log("componentDidMount()");
     const bambooHrScript = require('../BambooHR') 
   }
 
