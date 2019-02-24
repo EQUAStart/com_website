@@ -10,7 +10,7 @@ meta_description: >-
 
 By using the EQUA Start LLC (“EQUA Start”) website (the "Site") or any EQUA Start applications or application plug-ins ("Applications"), you agree to follow and be bound by these terms of use (the "Terms of Use") and agree to comply with all applicable laws and regulations, including United States export and re-export control laws and regulations. In these Terms of Use, the words "you" and "your" refer to each customer, Site visitor, or Application user, "we", "us" and "our" refer to EQUA Start and "Services" refers to all services provided by us.
 
-It is your responsibility to review these Terms of Use periodically. If at any time you find these Terms of Use unacceptable or ***if you do not agree to these Terms of Use, please do not use this Site or any Applications.*** We may revise these Terms of Use at any time without notice to you. If you have any questions about these Terms of Use, please contact our [Customer Care Center](mailto:support@equastart.io).
+It is your responsibility to review these Terms of Use periodically. If at any time you find these Terms of Use unacceptable or ***if you do not agree to these Terms of Use, please do not use this Site or any Applications.*** We may revise these Terms of Use at any time without notice to you. If you have any questions about these Terms of Use, please contact our [Customer Care Center](mailto:support@equastart.zendesk.com).
 
 YOU AGREE THAT BY USING THE SITE, ANY APPLICATIONS, AND THE SERVICES YOU ARE AT LEAST 18 YEARS OF AGE AND YOU ARE LEGALLY ABLE TO ENTER INTO A CONTRACT.
 
@@ -77,7 +77,7 @@ At various locations on the Site or through Applications, EQUA Start may permit 
 ### Rights and Responsibilities of EQUA Start.
 EQUA Start is not the publisher or author of the User Content. EQUA Start takes no responsibility and assumes no liability for any content posted by you or any third party.
 
-Although we cannot make an absolute guarantee of system security, EQUA Start takes reasonable steps to maintain security. If you have reason to believe system security has been breached, contact us by [email](mailto:support@equastart.io) for help.
+Although we cannot make an absolute guarantee of system security, EQUA Start takes reasonable steps to maintain security. If you have reason to believe system security has been breached, contact us by [email](mailto:support@equastart.zendesk.com) for help.
 
 If EQUA Start's technical staff finds that files or processes belonging to a member pose a threat to the proper technical operation of the system or to the security of other members, EQUA Start reserves the right to delete those files or to stop those processes. If the EQUA Start technical staff suspects a user name is being used by someone who is not authorized by the proper user, EQUA Start may temporarily disable that user's access in order to preserve system security. In all such cases, EQUA Start will contact the member as soon as feasible.
 
