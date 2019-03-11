@@ -3,7 +3,7 @@ templateKey: 'home-page'
 title: EQUA Start | Agreements Evolved
 meta_title: Home | EQUA Start 
 meta_description: >-
-  EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create a new businesses, and key business agreements such as owner, vendor, employee, and customer agreements with in minutes. Then, breathe life into your living documents as decisions are made within these agreements. EQUA Reduces the amount of time and money spent while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now.
+  EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create new businesses, and key business agreements such as owner, vendor, employee, and customer agreements within minutes. Then, breathe life into your living documents as decisions are made within these agreements. EQUA reduces time and money while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now.
 heading: Lorem ipsum dolor sit amet
 description: >-
   EQUA START is a blockchain based company focused on simplifying business agreements.
