@@ -56,11 +56,48 @@ EQUA Start grants you a limited, personal, non-exclusive, non-transferable licen
 
 By ordering or downloading Forms, you agree that the Forms you purchase or download may only be used by you for your personal or business use or used by you in connection with your client and may not be sold or redistributed without the express written consent of EQUA Start.
 
-## 7. Document Storage
-X
+## 7. Data Storage
+You retain full ownership of your files, folders, directories, including their metadata (file name, thumbnails, etc.) and any information you submit to EQUA Start (collectively, “Your Content”). EQUA Start does not claim any ownership of Your Content. These Terms of Use do not grant EQUA Start any rights to Your Content or intellectual property except for the following limited rights that are needed to run the Services: we may redundantly store or backup your data as set forth below, and we might use trusted third parties, such as Ravencoin or EOS, to provide the Services. You give us the permission for any and all actions that we need to undertake to provide the Services. Specifically, you agree that EQUA Start may transfer your data between its servers, to your devices or to other people’s devices with whom you share content.
 
+Your Content, encryption key and password (together “Your Encrypted Content”) uploaded by You or otherwise submitted to the Service, are stored in an encrypted or non-invertible form. Your Encrypted Content cannot be decrypted or inverted by EQUA Start or any third party. Your Encrypted Content can only be decrypted or inverted by you and persons you explicitly share Your Encrypted Content with. However, you agree that EQUA Start may collect and store some limited information which is needed to run the Services, such as your contact and billing information, your email address, messages sent to our support team, etc. in a non-encrypted form. You also agree that some third party provided parts of the Services might need different passwords than your EQUA Start account password, which may not be stored in a less secure form (referred together as “Non-Encrypted Content”).  EQUA Start transmits Non-Encrypted Content by using encrypted channels with reasonable care and skills.
 
-X
+You agree that EQUA Start may transmit any data to trusted third parties only on a need-to-know basis to provide the Services. We list those trusted third parties at [trusted third parties]. EQUA Start states and emphasize that it transmits Your Encrypted Content only in encrypted form, which cannot be decrypted as stated before. You agree that EQUA Start may also transmit any data stored by you to a third party, respecting all limitations and statements herein, if EQUA Start has a reason to believe that it is required: 
+
+1. To comply with any law or order issued by any legal authority.
+1. To avoid infringement of the rights of a third party.
+1. Protect the property of Tresorit or the personal safety of our users and the public.
+
+EQUA Start has no access to your password and there is no way for EQUA Start to recover your password. You hereby take note and accept that if your password is lost, Your Encrypted Content is irrevocably lost. EQUA Start cannot be held liable if your password is lost and Your Encrypted Content cannot be decrypted. WE STRONGLY RECOMMEND THAT YOU KEEP BACKUPS OF ANY CONTENT ON YOUR OWN SEPARATED SYSTEMS.
+
+By using our Services, Your Encrypted Content will be encrypted using an encryption key which is unknown by EQUA Start. You can read Your Encrypted Content only with your password; only known to you. Your Encrypted Content can only be read by other persons if you explicitly share Your Encrypted Content with other persons selected by yourself (“Shared User”).
+
+You are solely responsible and liable for any content you upload, download, share or copy by using our Services or our Platform. You hereby agree and undertake: 
+
+1. To respect data or content of third parties protected by copyright, patent, trademark, trade secret or other intellectual property (“Protected Content”). 
+1. Not to upload, download, share, or copy Protected Content or to use the Service otherwise with any Protected Content. 
+1. Not to upload a virus, trojan or any malicious code or software. 
+1. Not to use the Service to transmit any unlawful, harassing, libelous, defamatory, racist, indecent, abusive, violent, threatening, intimidating, harmful, vulgar, offensive or otherwise objectionable content or material of any kind or nature. 
+1. To comply with all applicable laws, rules and regulations. 
+1. Not to use the Service for any illegal purposes. 
+
+You agree that you are fully responsible and liable for all actions related to the Services of your employees, consultants and auxiliaries.
+
+You acknowledge that you are responsible and liable if you use the share functions of the Services and share files and any other content with Shared Users. We warn you and you confirm that you know and accept, that the shared content can be decrypted by Shared Users. So always consider what you share and with whom you share before you share confidential information with other persons. Do carefully check the email address of the person you desire to share your content. If you fail to type the right email address, an unknown and undesired user might get access to your data.
+
+Do not accept share requests, files or any other content from users you do not know, or you do not trust. EQUA Start has no responsibility for actions of persons you share data with. In particular, but not limited to, EQUA Start is not liable for malware you receive from users you chose to share with.
+
+EQUA Start has no control with regard to the content stored and shared by its users using the Services. We are not responsible for the accuracy, completeness, appropriateness, or legality of files, user posts, or any other information you may be able to access using the Services.
+
+You must keep your password confidential and must not authorize any third party to use the Services on your behalf. You are responsible for all activities in relation to your account. Tresorit is not liable for any loss or damage arising from any unauthorized use of your account. In the event we have reason to believe that an unauthorized person is using your account or any other unauthorized use, EQUA Start has the right, at its sole discretion and without prior notice, to suspend or disable your account, or take any action to avoid any unauthorized use.
+EQUA Start may provide you a two-factor authentication, as an extra layer of authentication for your Account. If you turn on such authentication method for your account, EQUA Start will not let you access your account without the two-factor authentication. EQUA Start strongly advises that you set up multiple methods of two-factor authentication and to immediately revoke the method of authentication for a particular device if you have lost that device.
+
+**EQUA Start NEVER sends emails asking for your password.**
+
+You must contact us right away if you suspect misuse of your account or any security breach in the Services.
+
+EQUA Start tries, with reasonable care and skill, to protect Your Content stored and synchronized on your computer by using our Services. You accept that you are solely responsible to maintain, protect, update, secure and backup your computer and your locally stored and synchronized content.
+
+Parts of encryption keys may be stored on your computer (memory or persistent storage), or EQUA Start may provide you a printable recovery encryption key. You are responsible for your computer and any copy of your printed or otherwise archived recovery keys. EQUA Start may provide you with remote device management, where you can remotely revoke access to your account form any device and/or remotely wipe the data from any device. However, this feature may not be functional in all cases, for example when Your device is not connected to the Internet. EQUA Start cannot be held liable if your computer is stolen or hacked and an unauthorized person gets access to Your Encrypted Data by accessing a locally stored copy, or by obtaining un-protected passwords or any encryption keys stored on your computer.
 
 ## 8. Dispute Resolution
 
@@ -155,7 +192,8 @@ Certain materials on the EQUA Start site, including but not limited to questionn
 EQUA Start aims to provide full access to its website and product offerings regardless of disability. If you are unable to read any part of the EQUA Start website, or otherwise have difficulties using the EQUA Start website, please call (800) 773-0888 and our customer care team will assist you. 
 
 ## 21. Governing Law; Venue.  
-Any legal action or proceeding relating to your access to or use of the Site, an Application, or Materials is governed by the Dispute Resolution provisions contained in paragraph 6. These Terms of Use expressly exclude and disclaim the terms of the U.N. Convention on Contracts for the International Sale of Goods, which shall not apply to any transaction conducted through or otherwise involving this Site or an Application.
+Any legal action or proceeding relating to your access to or use of the Site, an Application, or Materials is governed by the Dispute Resolution provisions contained in paragraph 8. These Terms of Use expressly exclude and disclaim the terms of the U.N. Convention on Contracts for the International Sale of Goods, which shall not apply to any transaction conducted through or otherwise involving this Site or an Application.
+
 ## 22. Copyrights. 
 All Site design, text, graphics, the selection and arrangement thereof, Copyright ©, EQUAStart.com, Inc. ALL RIGHTS RESERVED.
 
@@ -174,5 +212,5 @@ You acknowledge that EQUA Start reserves the right to refuse service to anyone a
 ## 27. Acknowledgement. 
 BY USING EQUA START'S SERVICES OR ACCESSING THE EQUA START SITE OR APPLICATIONS, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF USE AND AGREE TO BE BOUND BY THEM. 
 
-*Updated: January 24, 2019*
+*Updated: March 11, 2019*
 
