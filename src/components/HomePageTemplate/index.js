@@ -30,7 +30,7 @@ const HomePageTemplate = ({
           {title}
           </h1>
           <h2 className="subtitle">
-          {meta_description}
+          {description}
           </h2>
         </div>
       </div>
