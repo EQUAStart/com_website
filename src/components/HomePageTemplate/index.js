@@ -102,7 +102,7 @@ const HomePageTemplate = ({
       </div>
     </section>
 
-    
+    <script src="https://widget.prefinery.com/widget/v2/zkkppxyw.js" async defer></script>
   </div>
 )
 

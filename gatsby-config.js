@@ -20,6 +20,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+          rule: {
+            include: `${__dirname}/src/assets/img`
+            }
+        }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-134154705-1'

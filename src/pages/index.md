@@ -21,7 +21,7 @@ meta_description: >-
   Simplifying business
   Single source of truth
   Management of agreements
-  Government agreements
+  Government agreementsgit 
   Owner agreements
   Vendor agreements
   Customer agreement
@@ -30,7 +30,7 @@ heading: Lorem ipsum dolor sit amet
 description: >-
   EQUA START simplifies agreements. From creation to execution, smarten your contracts into living adaptable core components of your organization. Create new businesses, and key business agreements such as owner, vendor, employee, and customer agreements within minutes. Then, breathe life into your living documents as decisions are made within these agreements. EQUA reduces time and money while achieving peace of mind that all of your most important documents are stored as a single source of truth. Get started now.
 contact_form_description: >-
-  Stay in Touch!
+  Join our Waitlist 
 team_members:
   members:
     - fullName: Shawn Owen
