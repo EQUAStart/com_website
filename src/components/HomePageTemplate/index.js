@@ -30,7 +30,7 @@ const HomePageTemplate = ({
           {title}
           </h1>
           <h2 className="subtitle">
-          {meta_description}
+          {description}
           </h2>
         </div>
       </div>
@@ -41,12 +41,8 @@ const HomePageTemplate = ({
         <section className="section section-gradient">
           <div className="columns is-desktop">
               <div className="column">
-                <ContactForm description={contact_form_description}></ContactForm>
-              </div>
-              <div className="column">
-                <div className='splash-graphic-container'>
-                  <img id='splash-graphic' src='/img/icon_presentation@1x.svg' />
-                </div>
+                <ContactForm description={contact_form_description}>
+                </ContactForm>
               </div>
           </div>
         </section>
@@ -102,7 +98,7 @@ const HomePageTemplate = ({
       </div>
     </section>
 
-    
+    <script src="https://widget.prefinery.com/widget/v2/zkkppxyw.js" async defer></script>
   </div>
 )
 

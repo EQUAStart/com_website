@@ -7,17 +7,13 @@ $gradient-bottom-right: rgb( 1 ,60 ,176)
 @import "~bulma"
 @import "fonts"
 
-
 html
   width: 100%
   height: 100%
   margin: 0
   padding: 0
-  // display: flex
   align-items: center
   justify-content: center
-  // background: url(../../../static/img/bottom_board.svg)
-  // background-size: 100% 100%
 
 body
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -50,24 +46,6 @@ body > div
 .navbar-item.home-link
   font-family: "Kiona"
 
-
-#splash-graphic
-  // height: 100%
-  // width: 100%
-  margin: -1rem
-  padding: .5rem
-  min-width: 20rem
-  min-height: 35rem
-
-.splash-graphic-container
-  // animation-duration: 10s
-  // animation-name: bounceIn
-  // display: flex
-  
-  
-#Icon_presentation 
-
-
 .parallax-wrapper 
   height: 100vh
   overflow-x: hidden
@@ -76,11 +54,8 @@ body > div
 
 
 .team.section
-  // background: #333
-  // background-image: linear-gradient(180deg, #666 0%, #333 50%)
   overflow: hidden
   position: relative
-  // height: 100vh
   display: flex
   align-items: center
   justify-content: center
@@ -95,17 +70,10 @@ body > div
     bottom: 0
     left: 0
     transform: translateZ(-2px) scale(3.5)
-    // background-size: 150%
     z-index: -1
     height: 100vh
     background: url('/img/equa-bg-drop.jpg') center center repeat-y
-    // background-repeat: repeat-y
-    &:after
-      // width: 150%
-      // height: 150%
-      // // top: -10rem
-      // // left: -10rem
-      // background-size: 150%
+    
 
   
   & .card
@@ -124,21 +92,8 @@ body > div
     & .card-content .media .media-content .title
       color: #fff
     & .content
-      //  opacity: 0
       height: 19.75rem
       overflow: scroll
-    &:hover
-      // color: #000
-      // transform: translate3d(0,-10%,0) translate3d(0px,0px,0)
-      // background: #fff
-      & .card-content
-        // background: #fff
-      & .card-content .media .media-content .title
-        // color: #000
-      & .content
-        // opacity: 1
-        // height: 100%
-        // overflow: visible
 
 @media mobile
   .team.section .card:hover
@@ -166,7 +121,6 @@ nav
   margin-top: 0 !important
 
 .footer
-  // position: absolute
   bottom: 0
   width: 100%
   left: 0
