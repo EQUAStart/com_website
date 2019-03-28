@@ -68,6 +68,16 @@ const NavBar = ({toggleNavbar, isActive}) => (
                 <FaExternalLinkAlt />
               </span>
             </OutboundLink>
+            <OutboundLink target='_blank' className='navbar-item'
+              href='https://equa.eos.dev/login'
+              title="Equa Login Link"
+                    >
+              Login
+              <span className='icon'>
+                &nbsp;
+                <FaExternalLinkAlt />
+              </span>
+            </OutboundLink>
           </div>
           
         </div>
