@@ -102,10 +102,7 @@ class ContactForm extends Component {
   }
 
   componentDidMount () {
-    const prefineryScript = require('../Prefinery')
-
-    console.log('componentDidMount')
-    
+    const prefineryScript = require('../Prefinery') 
     this.playAnimation()
 
   }
@@ -114,10 +111,6 @@ class ContactForm extends Component {
     return (
       <div
         className='content'>
-
-        <Helmet>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-        </Helmet>
 
         <article className="message is-primary waitlist-container" onClick={ ()=> {this.playAnimation()}}>
           <div className="message-header is-size-1">
