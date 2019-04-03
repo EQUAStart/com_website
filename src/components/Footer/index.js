@@ -16,6 +16,9 @@ const Footer = () => {
           <div className='column is-one-third has-text-centered'>
             <Link to='/terms-of-use'>Terms of use</Link>
           </div>
+          <div className='column is-one-third has-text-centered'>
+            <Link to='/privacy-policy'>Privacy Policy</Link>
+          </div>
         </div>
       </div>
     </footer>
